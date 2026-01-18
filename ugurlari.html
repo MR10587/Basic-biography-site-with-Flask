@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uğurları</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">🏠 Sayt</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="/" class="nav-link">Əsas Səhifə</a></li>
+                <li class="nav-item"><a href="/haqqinda" class="nav-link">Haqqında</a></li>
+                <li class="nav-item"><a href="/ugurlari" class="nav-link active">Uğurları</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>🏆 Sah İsmayil Xetai'nin Uğurları</h1>
+        <p>Tarix, siyasət və mədəniyyət alanında əsas nailiyyətlər</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="content">
+            <section id="achievements" class="section-card">
+                <h2>Siyasi Uğurları</h2>
+                <ul class="achievement-list">
+                    <li>🥇 1501-ci ildə Səfəvi dövlətini qurmuşdur</li>
+                    <li>🥇 İran, Azərbaycan və Orta Asiya ərazisində böyük imperia yaratmışdır</li>
+                    <li>🥇 Şiə İslamını dövlət dini olaraq qurmuşdur</li>
+                    <li>🥇 Osmanlı İmperiyasına qarşı mübarizə vermişdir</li>
+                    <li>🥇 Qafqaz və Orta Şərqdə siyasi tarazlıq yaratmışdır</li>
+                </ul>
+            </section>
+
+            <section class="section-card">
+                <h2>Hərbi Fəaliyyəti</h2>
+                <ul class="achievement-list">
+                    <li>⚔️ Çaldıran Döyüşü (1514) - Osmanlılara qarşı qəhrəmanca döyüş</li>
+                    <li>⚔️ Qəzvin ətrafında güclü bir hərbi qüvvə yaratmışdır</li>
+                    <li>⚔️ Azərbaycan və Caucasus ərazilərinin müdafiəsini təmin etmişdir</li>
+                    <li>⚔️ Səfəvi ordusunu modern dövrün standartlarına uyğun inkişaf etdirmişdir</li>
+                    <li>⚔️ Böyük strateji zəfərlər əldə etmişdir</li>
+                </ul>
+            </section>
+
+            <section class="section-card">
+                <h2>Mədəni və Ziyalı İrsi</h2>
+                <ul class="achievement-list">
+                    <li>📚 Fərsi və Türkçə dilində qiymətli şeirlər yazmışdır</li>
+                    <li>📚 İslam fəlsəfə və ilahiyyatında böyük töhfə vermişdir</li>
+                    <li>📚 Səfəvi dövlətində elmlərin inkişafını həvəsləndirmişdir</li>
+                    <li>📚 Kitabxana və mədrəsə fəaliyyətini dəstəkləmişdir</li>
+                    <li>📚 Azərbaycan ədəbiyyatına böyük təsir göstərmişdir</li>
+                </ul>
+            </section>
+
+            <section class="section-card">
+                <h2>Dövlət İdarəçiliyi</h2>
+                <ul class="achievement-list">
+                    <li>👑 Səfəvi dövlətində güclü hüquqi sistem yaratmışdır</li>
+                    <li>👑 Şəhərlərin inkişafını təmin etmişdir (Qəzvin, Tabriz)</li>
+                    <li>👑 Ticarət və sənətkarlığın inkişafını stimullaşdırmışdır</li>
+                    <li>👑 Səraçılıq sənətinin yüksəkliyi dövrü yaratmışdır</li>
+                    <li>👑 Ədalətli və müdrəkənə hükmranlıq göstərmişdir</li>
+                </ul>
+            </section>
+
+            <section class="section-card">
+                <h2>Mirasçılığı və Əbədi Xatirəsi</h2>
+                <ul class="achievement-list">
+                    <li>⭐ Azərbaycan xalqının ən böyük tarix şəxsiyyətlərindən biri</li>
+                    <li>⭐ İslam dünyasının böyük reformatoru</li>
+                    <li>⭐ Səfəvi sivilizasiyasının yaradıcısı</li>
+                    <li>⭐ Dövrünün ən nüfuzlu liderləri arasında tanınır</li>
+                    <li>⭐ Azərbaycan ədəbiyyatında əbədi olaraq yaşayır</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Sah İsmayil Xetai Memorial Saytı. Bütün hüquqlar qorunur.</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

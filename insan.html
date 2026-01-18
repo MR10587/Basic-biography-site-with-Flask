@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="az">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sah İsmayil Xetai</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="/" class="nav-logo">🏠 Qisa Xulase</a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="/" class="nav-link active">Əsas Səhifə</a></li>
+                    <li class="nav-item"><a href="/haqqinda" class="nav-link">Haqqında</a></li>
+                    <li class="nav-item"><a href="/ugurlari" class="nav-link">Uğurları</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <header>
+            <h1>🏛️ Sah İsmayil Xetai - Səfəvi Dövlətinin Qurucusu</h1>
+        </header>
+
+        <div class="content">
+            <section id='section1' class="biography">
+                <img src="sekil/Sah.jpg" alt="Sah İsmayil Xetai" width="300" height="400">
+                <h2>Haqqinda</h2>
+                <p>Sah İsmayil Xetai 1487-ci ildə Şamaxıda anadan olmuşdur. O, Səfəvi dövlətinin qurucusu və ilk şahı olmuşdur. İsmayıl Xetai, 1501-ci ildə taxta çıxaraq Səfəvi dövlətini qurmuş və İslam dünyasında mühüm rol oynamışdır. Onun dövründə Səfəvi dövləti güclənmiş və genişlənmişdir. İsmayıl Xetai həm də şair kimi tanınır və "Xetai" təxəllüsü ilə məşhur olmuşdur.</p> 
+            </section>
+
+            <section class="achievements" id='section2'>
+                <h2>Uğurları</h2>
+                <ul>
+                    <li>Səfəvi dövlətini qurmuşdur.</li>
+                    <li>İslam dünyasında mühüm rol oynamışdır.</li>
+                    <li>Şair kimi tanınmış və "Xetai" təxəllüsü ilə məşhur olmuşdur.</li>
+                </ul>
+            </section>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Ramal Mirzezade tərəfindən hazırlanmışdır</p>
+        </footer>
+
+        <script src="{{ url_for('static', filename='script.js') }}"></script>
+    </body>
+</html>

@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background: linear-gradient(135deg, #006eff 0%, #004db3 100%);
+    padding: 15px 0;
+    box-shadow: 0 4px 15px rgba(0, 110, 255, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+
+.nav-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+}
+
+.nav-logo:hover {
+    transform: scale(1.1);
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    display: inline;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.nav-link.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-bottom: 3px solid #fff;
+}
+
+header {
+    background: linear-gradient(135deg, #006eff 0%, #004db3 100%);
+    padding: 25px 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(0, 110, 255, 0.2);
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #006eff;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    border-left: 4px solid #006eff;
+    padding-left: 15px;
+}
+
+.navigation {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 80px;
+    z-index: 999;
+}
+
+.nav-link {
+    color: #006eff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #006eff;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.content {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    padding-bottom: 120px;
+}
+
+.biography {
+    margin-bottom: 30px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.biography:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+.biography img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 110, 255, 0.2);
+}
+
+.biography img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+.biography h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.achievements {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.achievements:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+.achievements h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.achievements ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.achievements li {
+    padding: 12px 0;
+    padding-left: 30px;
+    position: relative;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.achievements li:before {
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    color: #006eff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Section Card Styles */
+.section-card {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.section-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+.section-card h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: linear-gradient(135deg, #006eff 0%, #004db3 100%);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 15px rgba(0, 110, 255, 0.2);
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+    transition: color 0.3s ease;
+}
+
+footer:hover p {
+    color: #e6f2ff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .content {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .biography,
+    .achievements {
+        padding: 20px;
+    }
+
+    .biography img {
+        max-width: 100%;
+    }
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+

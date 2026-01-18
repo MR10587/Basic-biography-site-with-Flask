@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haqqında</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">🏠 Sayt</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="/" class="nav-link">Əsas Səhifə</a></li>
+                <li class="nav-item"><a href="/haqqinda" class="nav-link active">Haqqında</a></li>
+                <li class="nav-item"><a href="/ugurlari" class="nav-link">Uğurları</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>📖 Sah İsmayil Xetai Haqqında</h1>
+        <p>Biografi və tarixi məlumatlar</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="content">
+            <section id="biography" class="section-card">
+                <h2>Biografi</h2>
+                <p>
+                    Sah İsmayil Xetai (1487-1524) Səfəvi dövlətinin qurucusu və ilk şahı idi. O, Azərbaycanda anadan olmuş 
+                    və İslam dünyasında böyük rol oynamış tarixi şəxsiyyətdir. İsmayıl Xetai yalnız siyasi lider deyil, həm də 
+                    mütəfəkkir və şair olaraq tanınırdı.
+                </p>
+                <p>
+                    1501-ci ildə Səfəvi dövlətini qurmuş olan İsmayıl Xetai, Şiə İslamını dövlət dini olaraq əsas etməsi ilə 
+                    İslam tarixində böyük dəyişiklik yaratdı. Onun dövründə dövlət sürətlə genişləndi və Qafqaz, Anadolu və 
+                    Orta Asya bölgəsində güclü bir dövlət yarandı.
+                </p>
+                <p>
+                    "Xetai" təxəllüsü ilə məşhur olan İsmayıl Xetai, Fərsi və Türkçə dilində şeirlər də yazmışdır. Onun şəxsiyyəti, 
+                    liderliyi və mənəvi dəyərləri Azərbaycan xalqı tərəfindən əbədi olaraq xatırlanacaqdır.
+                </p>
+            </section>
+
+            <section class="section-card">
+                <h2>Həyatının Əsas Mərhələləri</h2>
+                <ul class="achievement-list">
+                    <li>1487 - Şamaxıda anadan olmuşdur</li>
+                    <li>1501 - Səfəvi dövlətini qurmuşdur</li>
+                    <li>1508-1514 - Dövlətin genişlənməsi dövrü</li>
+                    <li>1514 - Çaldıran Döyüşü (Osmanlılarla)</li>
+                    <li>1524 - Həyatından köçürdü</li>
+                </ul>
+            </section>
+
+            <section class="section-card">
+                <h2>Şəxsi Xüsusiyyətləri</h2>
+                <ul class="achievement-list">
+                    <li>✓ Böyük strateji siyasi lider</li>
+                    <li>✓ Dövrünün həll etmə qabiliyyətli mütəfəkkiri</li>
+                    <li>✓ Fərsi və Türkçə dilində şair</li>
+                    <li>✓ İslam dünyasının əsas simvolu</li>
+                    <li>✓ Mərhəmətli və ədalətli hökmddar</li>
+                </ul>
+            </section>
+
+            <section class="section-card">
+                <h2>Səfəvi Dövləti</h2>
+                <p>
+                    Səfəvi dövləti Sah İsmayıl Xetai tərəfindən qurulmuş Azərbaycanda yaranmış böyük bir imperium olmuşdur. 
+                    Bu dövlət 1501-ci ildən 1736-cı ilə qədər mövcud olmuş, Azərbaycan, İran və digər bölgələri əhatə etmişdir. 
+                    Səfəvi dövləti Şiə İslamını yayması, səraçılığını inkişaf etdirməsi və mədəniyyətin çiçəklənməsi ilə tanınır.
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Sah İsmayil Xetai Memorial Saytı. Bütün hüquqlar qorunur.</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
